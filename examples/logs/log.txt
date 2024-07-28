@@ -1,0 +1,198 @@
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/11" 400 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/11" 400 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/11" 400 154
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/11" 200 192
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.9965305924415588.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/11" 200 1675
+INFO:root:Using user-specified mvc config file located at /home/root372/animated_mp4/AnimatedDrawings/examples/garlic_out/mvc_cfg.yaml
+DEBUG:OpenGL.platform.ctypesloader:Loaded libGL.so => libGL.so.1 <CDLL 'libGL.so.1', handle 632263d5f990 at 0x7febe17422c0>
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/root372/environments/AnimatedDrawings/lib/python3.10/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 632264f7d120 at 0x7febe1c33d90>, using it.
+INFO:root:OpenGL Version: 4.6 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.2
+INFO:root:GLSL: 4.60
+INFO:root:Renderer: Mesa Intel(R) HD Graphics 530 (SKL GT2)
+INFO:root:2 separate polygons found in mask. Using largest.
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:char_runtime_check failed, removing neck from retargeter :('neck', 'above', 'right_shoulder', 'left_shoulder')
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 6.371752500534058 seconds
+INFO:root:Using BVH file located at /home/root372/animated_mp4/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA2xA2 is singular. perturbing...
+INFO:root: Writing video to: /home/root372/animated_mp4/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:invalid frame_idx (339), replacing with last frame 338
+INFO:root:Rendered 339 frames in 36.563636302948 seconds.
+INFO:root:VideoWriter will write to /home/root372/animated_mp4/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:Wrote video to file in in 5.468858003616333 seconds.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/11" 200 192
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.995958149433136.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/11" 200 1659
+INFO:root:Using user-specified mvc config file located at /home/root372/animated_mp4/AnimatedDrawings/examples/banana_out/mvc_cfg.yaml
+DEBUG:OpenGL.platform.ctypesloader:Loaded libGL.so => libGL.so.1 <CDLL 'libGL.so.1', handle 612b74df5990 at 0x7673450de2c0>
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/root372/environments/AnimatedDrawings/lib/python3.10/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 612b75fe0620 at 0x767344ba0130>, using it.
+INFO:root:OpenGL Version: 4.6 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.2
+INFO:root:GLSL: 4.60
+INFO:root:Renderer: Mesa Intel(R) HD Graphics 530 (SKL GT2)
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 8.603003025054932 seconds
+INFO:root:Using BVH file located at /home/root372/animated_mp4/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/11" 200 192
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.995958149433136.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/11" 200 1659
+INFO:root:Using user-specified mvc config file located at /home/root372/animated_mp4/AnimatedDrawings/examples/banana_out/mvc_cfg.yaml
+DEBUG:OpenGL.platform.ctypesloader:Loaded libGL.so => libGL.so.1 <CDLL 'libGL.so.1', handle 567a10b53990 at 0x7ac9605462c0>
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/root372/environments/AnimatedDrawings/lib/python3.10/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 567a11d3eb60 at 0x7ac960204130>, using it.
+INFO:root:OpenGL Version: 4.6 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.2
+INFO:root:GLSL: 4.60
+INFO:root:Renderer: Mesa Intel(R) HD Graphics 530 (SKL GT2)
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 9.057184219360352 seconds
+INFO:root:Using BVH file located at /home/root372/animated_mp4/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA1xA1 is singular. perturbing...
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_detector HTTP/11" 200 192
+INFO:root:Detected 1 humanoids in image. Using detection with highest score 0.9965305924415588.
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost:8080
+DEBUG:urllib3.connectionpool:http://localhost:8080 "POST /predictions/drawn_humanoid_pose_estimator HTTP/11" 200 1675
+INFO:root:Using user-specified mvc config file located at /home/root372/animated_mp4/AnimatedDrawings/examples/garlic_out/mvc_cfg.yaml
+DEBUG:OpenGL.platform.ctypesloader:Loaded libGL.so => libGL.so.1 <CDLL 'libGL.so.1', handle 573f55d94990 at 0x76d53ac5e2c0>
+INFO:OpenGL.acceleratesupport:No OpenGL_accelerate module loaded: No module named 'OpenGL_accelerate'
+DEBUG:shapely.geos:Found GEOS DLL: <CDLL '/home/root372/environments/AnimatedDrawings/lib/python3.10/site-packages/Shapely.libs/libgeos_c-c8ec7514.so.1.16.1', handle 573f56f92360 at 0x76d53b063d90>, using it.
+INFO:root:OpenGL Version: 4.6 (Core Profile) Mesa 23.2.1-1ubuntu3.1~22.04.2
+INFO:root:GLSL: 4.60
+INFO:root:Renderer: Mesa Intel(R) HD Graphics 530 (SKL GT2)
+INFO:root:2 separate polygons found in mask. Using largest.
+INFO:root:Encountered values close to zero in vector norm. Replacing with 1e-05
+INFO:root:char_runtime_check failed, removing neck from retargeter :('neck', 'above', 'right_shoulder', 'left_shoulder')
+INFO:root:Starting joint -> mask pixel BFS
+INFO:root:Finished joint -> mask pixel BFS in 6.668990135192871 seconds
+INFO:root:Using BVH file located at /home/root372/animated_mp4/AnimatedDrawings/examples/bvh/fair1/dab.bvh
+INFO:root:Upper Limbs projection_method is pca. Running PCA on ['RightShoulder', 'RightArm', 'RightForeArm', 'RightHand', 'RightHandEnd', 'LeftShoulder', 'LeftArm', 'LeftForeArm', 'LeftHand', 'LeftHandEnd']
+INFO:root:PCA complete. Upper Limbs using [1. 0. 0.]
+INFO:root:Lower Limbs projection_method is pca. Running PCA on ['RightUpLeg', 'RightLeg', 'RightFoot', 'RightToeBase', 'LeftUpLeg', 'LeftLeg', 'LeftFoot', 'LeftToeBase']
+INFO:root:PCA complete. Lower Limbs using [1. 0. 0.]
+INFO:root:Trunk projection_method is frontal. Using [1. 0. 0.]
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: RightHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: LeftHandThumb1
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root: error finding projection plane for joint_name: End Site
+INFO:root:tA1xA1 is singular. perturbing...
+INFO:root:tA2xA2 is singular. perturbing...
+INFO:root: Writing video to: /home/root372/animated_mp4/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:invalid frame_idx (339), replacing with last frame 338
+INFO:root:Rendered 339 frames in 35.461148500442505 seconds.
+INFO:root:VideoWriter will write to /home/root372/animated_mp4/AnimatedDrawings/examples/garlic_out/video.gif
+INFO:root:Wrote video to file in in 5.313244819641113 seconds.
